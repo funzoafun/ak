@@ -1,7 +1,8 @@
 import React from "react";
 import Head from "next/head";
 
-import { NavBar, Footer } from ".";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
