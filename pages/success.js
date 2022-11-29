@@ -7,7 +7,7 @@ import { runFireworks } from "../lib/utils";
 import { cartActions } from "../context/cartSlice";
 import { useDispatch } from "react-redux";
 
-const success = () => {
+const Success = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -40,4 +40,4 @@ const success = () => {
   );
 };
 
-export default success;
+export default Success;
